@@ -28,7 +28,7 @@ Refer to `configs/aws_ec2_setup.md` for environment setup and
 use the scripts in `scripts/` to execute Case 1, Case 2, and Case 3.
 
 ## Author
-Tharun Jonnalagadda
+Riyaz Basha Mandiyam (M.R.Basha)
 
 ## License
 MIT License
