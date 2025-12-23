@@ -9,6 +9,31 @@ The work evaluates three progressively advanced system configurations:
 - Case 2: Static deterministic batching at the edge
 - Case 3: AI-driven adaptive edge control
 
+## Project Phases
+
+This research is structured into progressive experimental phases:
+
+**Phase 0 — Pipeline Validation**
+- End-to-end device → edge → cloud communication
+- MQTT-based telemetry flow verification
+- Timestamp instrumentation across all layers
+
+**Phase 1 — Baseline Measurement**
+- Measurement of latency and jitter without determinism
+- No batching, no adaptation, no intelligence
+- Establishes a non-deterministic reference baseline
+
+**Phase 2 — Static Deterministic Control**
+- Fixed batching and flushing at the edge
+- Reduction of latency variance under controlled conditions
+- Demonstrates partial determinism
+
+**Phase 3 — Adaptive Edge Intelligence**
+- AI-inspired adaptive control at the edge
+- Dynamic batching and flush decisions
+- Balances latency, jitter, and throughput
+
+
 ## Key Contributions
 - Real-world deployment on AWS (not simulation-based)
 - End-to-end latency and jitter instrumentation across device, edge, and cloud
